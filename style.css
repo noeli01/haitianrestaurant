@@ -11,6 +11,30 @@ body{
     width: 350px;
 }
 
+.quantity{
+    background-color: grey;
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 5px;
+}
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5px;
+}
 
+.menu{
+    font-size: 16px
+}
+
+.menu-group-heading {
+    margin: 0;
+    padding-bottom: 1px;
+    border-bottom: 2px solid #9aba8cff;
+}
+
+.menu-group {
+    padding: 1.5px 0;
+}
 
