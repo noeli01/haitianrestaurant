@@ -38,3 +38,58 @@ body{
     padding: 1.5px 0;
 }
 
+.hero {
+    background-image: url('https://s3-us-west-2.amazonaws.com/minisitios/revistaamigapl/wp-content/uploads/2021/09/pexels-cats-coming-674574-scaled.jpg');
+    height: 350 px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center
+}
+.hero h1 {
+    color: white;
+    margin: 0;
+    padding-top: 15%;
+    font-size: 46px;
+}
+
+.hero p {
+    color:white;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.hero a{
+    background-color: yellow;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.hero a:hover {
+    background-color: yellowgreen;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: row;
+}
+
+.history {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.seasonal {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+ }
+
+.popular {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+} 
