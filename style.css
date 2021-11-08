@@ -93,3 +93,18 @@ body{
     justify-content: space-evenly;
     gap: 30px;
 } 
+
+.owner-picture {
+    width: 30px;
+    height: auto;
+}
+
+.family-picture {
+    width: 30px;
+    height: auto;
+}
+
+.example-plate {
+    width: 30px;
+    height: auto;
+}
