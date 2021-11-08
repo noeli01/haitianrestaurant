@@ -74,6 +74,7 @@ body{
 .about-us {
     display: flex;
     flex-direction: row;
+    gap: 30px;
 }
 
 .history {
