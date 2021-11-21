@@ -6,6 +6,18 @@
 .nav-bar {
   text-align: right;
   padding: 30px 30px;
+  height: auto;
+}
+
+.desktop-nav {
+  padding: 15px;
+}
+
+.nav-bar {
+  padding: 15px 15px;
+  background-color: #9aba8cff;
+  display: flex;
+  justify-content: space-between;
 }
 
 body {
@@ -38,6 +50,33 @@ body {
   font-size: 16px;
 }
 
+.quantity {
+  background-color: #9aba8cff;
+  border: 1px solid #fff2ccff;
+  border-radius: 10px;
+  padding: 8px;
+  margin: 10px;
+}
+
+.quantity-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #9aba8cff;
+}
+
+.menu-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5px;
+}
+
+.menu {
+  font-size: 14px;
+}
+
 .menu-group-heading {
   margin: 0;
   padding-bottom: 1px;
@@ -46,10 +85,40 @@ body {
 
 .menu-group {
   padding: 1.5px 0;
+  border: 2x solid green;
+}
+
+.menu-group {
+  display: grid;
+  grid-template-columns: 2fr;
+  gap: 1.5px;
+  padding: 1.5px 0;
+}
+
+.menu-item-image {
+  width: 300px;
+  height: 300px;
+  flex-shrink: 0;
+  object-fit: cover;
+  margin-right: 1.5px;
+}
+
+.menu-item-text {
+  flex-grow: 1;
+}
+
+.menu-item-heading {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.menu-item {
+  display: flex;
 }
 
 .hero {
-  background-image: url("https://s3-us-west-2.amazonaws.com/minisitios/revistaamigapl/wp-content/uploads/2021/09/pexels-cats-coming-674574-scaled.jpg");
+  background-image: url('https://s3-us-west-2.amazonaws.com/minisitios/revistaamigapl/wp-content/uploads/2021/09/pexels-cats-coming-674574-scaled.jpg');
   height: 350px;
   background-position: center;
   background-repeat: no-repeat;
@@ -122,4 +191,9 @@ body {
 
 .footer {
   width: 100%;
+}
+
+.social-media-icon {
+  width: 100px;
+  height: 100px;
 }
