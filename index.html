@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel ="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swa">
     <style>
         body{
@@ -12,13 +13,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main</title>
     <link rel ="stylesheet" href="style.css">
+    <link rel ="stylesheet" href="index.css">
 </head>
 <body>
-        <nav class="nav-background">
+        <nav class="nav-bar">
             <img 
             class="haitian-logo"
             alt="Website Logo"
-            src="https://upload.wikimedia.org/wikipedia/commons/5/56/Flag_of_Haiti.svg" />
+            src="./media/logo.png" />
     
             <span>
                 <a href="menu.html">Menu</a>
@@ -31,6 +33,9 @@
     <section class="hero">
         <div class="slideshow">
             <span class="hero-text">
+               <!-- <img src="./media/heroimage.jpeg" 
+                class="img-fluid" 
+                alt="hero-image" /> --> 
                 <h1>Michou Cafe</h1>
                 <p>The Haitian Cafe</p>
                 <a href="menu.html">Our Menu</a>
@@ -39,44 +44,56 @@
     </section>
 
     <section class="about-us">
-        <div class="history">
-            <img src="https://www.savorythoughts.com/wp-content/uploads/2021/07/Haitian-Akra-Accra-Recipe-Savory-Thoughts-4.jpg">
-            <button>History</button>
-            </div>
-
-            <div class="seasonal">
-                <img src="https://www.elitetraveler.com/wp-content/uploads/2020/12/kremas-cocktail-730x450.jpg">
-                <button>Seasonal dishes</button>
-            </div>
-
-            <div class="popular">
-                <img src="https://www.savorythoughts.com/wp-content/uploads/2019/01/Haitian-Patties-Haitian-Pate-Recipe-BHM-Virtual-Potluck-on-black-plate-with-herbs-alongside-the-edges.jpg">
+        <div class="card-group">
+            <div class="card">
+              <img src="./media/pate.jpg" class="card-img-top" alt="Pate">
+              <div class="card-body">
+                <h5 class="card-title">Popular Dishes</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 <button>Popular dishes</button>
+              </div>
             </div>
+            <div class="card">
+              <img src="./media/index-akra.jpeg" class="card-img-top" alt="Akra">
+              <div class="card-body">
+                <h5 class="card-title">History</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <button>History</button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./media/haitian-cremas.jpg" class="card-img-top" alt="Cremas">
+              <div class="card-body">
+                <h5 class="card-title">Seasonal Dishes</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <button>Seasonal dishes</button>
+              </div>
+            </div>
+          </div>
     </section>
 
     <section>
         <footer>
             <a target="blank" href="twitter.com"> 
                 <span> 
-                    <img class="twitter-icon" alt="twitter-icon" src="media/twitter.png"/>
+                    <img class="twitter-icon" alt="twitter-icon" src="./media/twitter.png"/>
                 </span>
             </a>
             <a target="blank" href="tiktok.com">
                 <span>
-                    <img class="twitter-icon" alt="twitter-icon" src="media/tiktok.png"/>
+                    <img class="tiktok-icon" alt="tiktok-icon" src="./media/tiktok.png"/>
                 </span>
             </a>
                 <span>Copyright 2021</span>
 
             <a target="blank" href="instagram.com">
                 <span>
-                    <img class="twitter-icon" alt="twitter-icon" src="media/instagram.jpg"/>
+                    <img class="instagram-icon" alt="instagram-icon" src="./media/instagram.jpg"/>
                 </span>
             </a>
             <a target="blank" href="facebook.com">
                 <span>
-                    <img class="twitter-icon" alt="twitter-icon" src="media/facebook.png"/>
+                    <img class="facebook-icon" alt="facebook-icon" src="./media/facebook.png"/>
                 </span>
             </a>
         </footer>
