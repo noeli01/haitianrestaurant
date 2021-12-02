@@ -1,102 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel ="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swa">
-    <style>
-        body{
-            font-family: "Libre Baskerville", serif;
-        }
-    </style>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swa"
+    />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Main</title>
-    <link rel ="stylesheet" href="style.css">
-    <link rel ="stylesheet" href="index.css">
-</head>
-<body>
-        <nav class="nav-bar">
-            <img 
-            class="haitian-logo"
-            alt="Website Logo"
-            src="./media/logo.png" />
-    
-            <span class="desktop-nav a:hover">
-                <a href="menu.html">Menu</a>
-                <a href="about.html">About</a>
-                <a href="contact-us.html">Contact Us</a>
-                <a href="catering.html">Catering</a>
-            </span>
-        </nav>   
-        
-    <section class="hero">
-        <div class="slideshow">
-            <span class="hero-text">
-               <!-- <img src="./media/heroimage.jpeg" 
-                class="img-fluid" 
-                alt="hero-image" /> --> 
-                <h1>Michou Cafe</h1>
-                <p>The Haitian Cafe</p>
-                <a href="menu.html">Our Menu</a>
-            </span>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="./media/logo.png"
+            alt=""
+            width="50"
+            class="d-inline-block align-text-top"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact-us.html">Contact us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="catering.html">Catering</a>
+            </li>
+          </ul>
         </div>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="slideshow">
+        <span class="hero-text">
+          <!-- <img src="./media/heroimage.jpeg" 
+                class="img-fluid" 
+                alt="hero-image" /> -->
+          <h1>Michou Cafe</h1>
+          <p>The Haitian Cafe</p>
+          <button href="menu.html" class="btn btn-warning">Our Menu</button>
+        </span>
+      </div>
     </section>
 
     <section class="about-us">
-        <div class="card-group">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
             <div class="card">
-              <img src="./media/pate.jpg" class="card-img-top" alt="Pate">
+              <img src="./media/pate.jpg" class="card-img-top" alt="Pate" />
               <div class="card-body">
                 <h5 class="card-title">Popular Dishes</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <button>Popular dishes</button>
-              </div>
-            </div>
-            <div class="card">
-              <img src="./media/index-akra.jpeg" class="card-img-top" alt="Akra">
-              <div class="card-body">
-                <h5 class="card-title">History</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                <button>History</button>
-              </div>
-            </div>
-            <div class="card">
-              <img src="./media/haitian-cremas.jpg" class="card-img-top" alt="Cremas">
-              <div class="card-body">
-                <h5 class="card-title">Seasonal Dishes</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                <button>Seasonal dishes</button>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <button class="btn btn-warning btn-block">
+                  Popular dishes
+                </button>
               </div>
             </div>
           </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="./media/index-akra.jpeg"
+                class="card-img-top"
+                alt="Akra"
+              />
+              <div class="card-body">
+                <h5 class="card-title">History</h5>
+                <p class="card-text">
+                  This card has supporting text below as a natural lead-in to
+                  additional content.
+                </p>
+                <button class="btn btn-warning btn-block">History</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="./media/pate.jpg" class="card-img-top" alt="Cremas" />
+              <div class="card-body">
+                <h5 class="card-title">Seasonal Dishes</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <button class="btn btn-warning btn-block">
+                  Seasonal dishes
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section>
-        <footer>
-            <a target="blank" href="twitter.com"> 
-                <span> 
-                    <img class="twitter-icon" alt="twitter-icon" src="./media/twitter.png"/>
-                </span>
-            </a>
-            <a target="blank" href="tiktok.com">
-                <span>
-                    <img class="tiktok-icon" alt="tiktok-icon" src="./media/tiktok.png"/>
-                </span>
-            </a>
-                <span>Copyright 2021</span>
+    <footer>
+      <a target="blank" href="twitter.com">
+        <img class="s-icon" alt="Twitter" src="./media/twitter.png" />
+      </a>
+      <a target="blank" href="tiktok.com">
+        <img class="s-icon" alt="Tiktok" src="./media/tiktok.png" />
+      </a>
+      <span>© Copyright 2021</span>
 
-            <a target="blank" href="instagram.com">
-                <span>
-                    <img class="instagram-icon" alt="instagram-icon" src="./media/instagram.jpg"/>
-                </span>
-            </a>
-            <a target="blank" href="facebook.com">
-                <span>
-                    <img class="facebook-icon" alt="facebook-icon" src="./media/facebook.png"/>
-                </span>
-            </a>
-        </footer>
-    </section>
-</body>
+      <a target="blank" href="instagram.com">
+        <img class="s-icon" alt="Instagram" src="./media/instagram.jpg" />
+      </a>
+      <a target="blank" href="facebook.com">
+        <img class="s-icon" alt="Facebook" src="./media/facebook.png" />
+      </a>
+    </footer>
+  </body>
 </html>
