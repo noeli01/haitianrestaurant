@@ -1,10 +1,34 @@
 .haitian-logo {
   width: 100px;
+  float: left;
+}
+
+.bg-light {
+  background-color: #9aba8cff !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #795548;
+  text-transform: uppercase;
+}
+
+.nav-bar {
+  text-align: right;
+  padding: 30px 30px;
   height: auto;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
 }
 
 .desktop-nav {
   padding: 15px;
+}
+
+section {
+  padding: 5% 0;
 }
 
 .nav-bar {
@@ -35,6 +59,7 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
+
 
 .card {
   background-color: #9aba8cff;
@@ -86,23 +111,24 @@ body {
 }
 
 .hero {
-  background-image: url("https://s3-us-west-2.amazonaws.com/minisitios/revistaamigapl/wp-content/uploads/2021/09/pexels-cats-coming-674574-scaled.jpg");
-  height: 350 px;
+  background-image: url('https://s3-us-west-2.amazonaws.com/minisitios/revistaamigapl/wp-content/uploads/2021/09/pexels-cats-coming-674574-scaled.jpg');
+  height: 350px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   text-align: center;
 }
+
 .hero h1 {
-  color: white;
+  color: goldenrod;
   margin: 0;
-  padding-top: 15%;
+  padding-top: 2%;
   font-size: 46px;
 }
 
 .hero p {
-  color: white;
+  color: gray;
   margin: 0;
   margin-bottom: 15px;
 }
@@ -157,11 +183,19 @@ body {
   height: auto;
 }
 
-.footer {
-  width: 100%;
+footer {
+  padding: 2% 0;
+  text-align: center;
 }
 
-.social-media-icon {
-  width: 100px;
-  height: 100px;
+footer a {
+  text-decoration: none;
+}
+
+.s-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 5px solid goldenrod;
+  padding: 2px;
 }

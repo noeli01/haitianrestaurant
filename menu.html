@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel ="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swa">
-    <style>
-        body{
-            font-family: "Libre Baskerville", serif;
-        }
-    </style>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swa"
+    />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,21 +19,48 @@
     <link rel ="stylesheet" href="menu.css">
 </head>
 <body>
-    <section>
-        <nav class="nav-bar">
-            <img 
-            class="haitian-logo"
-            alt="Website Logo"
-            src="./media/logo.png" />
-    
-            <span>
-                <a href="menu.html">Menu</a>
-                <a href="about.html">About</a>
-                <a href="contact-us.html">Contact Us</a>
-                <a href="catering.html">Catering</a>
-            </span>
-        </nav>  
-    </section> 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="./media/logo.png"
+            alt=""
+            width="50"
+            class="d-inline-block align-text-top"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact-us.html">Contact us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="catering.html">Catering</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
     <div class="container">
         <div class="menu">
@@ -40,8 +70,7 @@
             <div class="menu-item">
                 <img 
                 alt="pate"
-                src="https://www.savorythoughts.com/wp-content/uploads/2019/01/Haitian-Patties-Haitian-Pate-Recipe-BHM-Virtual-Potluck-stacked-patties-on-white-plate.jpg" />
-                <!-- Need to add relative tag and photos from media folder -->
+                src="./media/menu-pate.jpeg" />
                 <div class="menu-item-text">
                     <span class="menu-item-name">Pâté</span>
                     <span class="menu-item-price">$20</span>
@@ -64,8 +93,7 @@
                 <div class="menu-item">
                     <img 
                     alt="fried-plantain"
-                    src="https://assets.bonappetit.com/photos/59c924ce3b3bf713cb638084/6:9/w_1573,h_2360,c_limit/1017%20WEB%20WEEK0800.jpg" />
-                    <!-- Need to add relative tag and photos from media folder -->
+                    src="./media/platain.jpeg" />
                     <div class="menu-item-text">
                         <span class="menu-item-name">Fried Plantain</span>
                         <span class="menu-item-price">$70</span>
@@ -92,7 +120,7 @@
                     <div class="menu-item">
                         <img 
                         alt="red-beans-and-rice"
-                        src="https://www.internationalcuisine.com/wp-content/uploads/2015/10/Haiti-Red-Rice-and-Beans-e1444238280800.jpg" />
+                        src="./media/red-beans-and-rice.jpeg" />
                         <div class="menu-item-text">
                             <span class="menu-item-name">Red beans & rice</span>
                             <span class="menu-item-price">$30</span>
@@ -115,8 +143,7 @@
                     <div class="menu-item">
                         <img 
                         alt="chicken-soup"
-                        src="https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=face&w=2000&h=1000&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F9%2F2021%2F06%2F23%2Fpoul-nan-sos-haitian-chicken-in-sauce-FT-RECIPE0621.jpg" />
-                        <!-- Need to add relative tag and photos from media folder -->
+                        src="./media/chicken-soup.webp" />
                         <div class="menu-item-text">
                             <span class="menu-item-name">Haitian Chicken Soup</span>
                             <span class="menu-item-price">$100</span>
@@ -139,8 +166,7 @@
                     <div class="menu-item">
                         <img 
                         alt="mac-n-cheese"
-                        src="https://damnspicy.com/wp-content/uploads/2021/05/haitian-macaroni-au-gratin-recipe-500x375.jpg" />
-                        <!-- Need to add relative tag and photos from media folder -->
+                        src="./media/mac-n-cheese.webp" />
                         <div class="menu-item-text">
                             <span class="menu-item-name">Haitian Mac n Cheese</span>
                             <span class="menu-item-price">$50</span>
@@ -166,8 +192,7 @@
                     <div class="menu-item">
                         <img 
                         alt="soup-joumou"
-                        src="https://static01.nyt.com/images/2020/12/29/dining/29Haitianrex1/merlin_181421682_e4bc0c50-cc2a-4ccb-a8c8-3d9ff0c67410-articleLarge.jpg" />
-                        <!-- Need to add relative tag and photos from media folder -->
+                        src="./media/soup-joumou.jpg" />
                         <div class="menu-item-text">
                             <span class="menu-item-name">Soup Joumou</span>
                             <span class="menu-item-price">$500</span>
@@ -193,8 +218,7 @@
                     <div class="menu-item">
                         <img 
                         alt="cremas"
-                        src="https://i.pinimg.com/originals/03/70/66/0370665e6d654f3fe78a40dbeb5e99c0.jpg" />
-                        <!-- Need to add relative tag and photos from media folder -->
+                        src="./media/cremas.jpg" />
                         <div class="menu-item-text">
                             <span class="menu-item-name">Haitian Cremas</span>
                             <span class="menu-item-price">$100</span>
@@ -217,5 +241,21 @@
             </div>
         </div>
     </div>
+        <footer>
+      <a target="blank" href="twitter.com">
+        <img class="s-icon" alt="Twitter" src="./media/twitter.png" />
+      </a>
+      <a target="blank" href="tiktok.com">
+        <img class="s-icon" alt="Tiktok" src="./media/tiktok.png" />
+      </a>
+      <span>© Copyright 2021</span>
+
+      <a target="blank" href="instagram.com">
+        <img class="s-icon" alt="Instagram" src="./media/instagram.jpg" />
+      </a>
+      <a target="blank" href="facebook.com">
+        <img class="s-icon" alt="Facebook" src="./media/facebook.png" />
+      </a>
+    </footer>
 </body>
 </html>
