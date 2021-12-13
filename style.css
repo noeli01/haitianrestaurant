@@ -136,13 +136,18 @@ body {
 }
 
 .hero {
-  background-image: url('https://s3-us-west-2.amazonaws.com/minisitios/revistaamigapl/wp-content/uploads/2021/09/pexels-cats-coming-674574-scaled.jpg');
+  background-image: url("https://s3-us-west-2.amazonaws.com/minisitios/revistaamigapl/wp-content/uploads/2021/09/pexels-cats-coming-674574-scaled.jpg");
   height: 350px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   text-align: center;
+}
+
+.carousel {
+  height: 350px;
+  overflow: hidden;
 }
 
 .hero h1 {
