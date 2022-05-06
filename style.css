@@ -1,10 +1,11 @@
+/* navbar beginning */
 .haitian-logo {
   width: 100px;
   float: left;
 }
 
 .bg-light {
-  background-color: #9aba8cff !important;
+  background-color: #e4b78f !important;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -27,18 +28,69 @@ section {
 
 .nav-bar {
   padding: 15px 15px;
-  background-color: #9aba8cff;
   display: flex;
   justify-content: space-between;
 }
+/* nav bar end */
 
+/* index page code */
+.cafe-name {
+  z-index: 100;
+  position: absolute;
+  font-size: 200px;
+  color: #fff2ccff;
+  text-align: center;
+  font-weight: bold;
+  top: 500px;
+}
+.main-dish {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
+.cards-headline {
+  text-align: center;
+  font-size: 70px;
+  padding: 2px 0px 45px;
+}
+/* end of index page code */
+
+/* universal code */
 body {
-  background-color: #f2cc91ff;
+  background-color: #ad192a;
 }
 
 .hero-text {
   color: black;
   width: 350px;
+}
+/* end of universal code */
+
+/* beginning of menu code */
+/* .heading {
+  padding: 100px;
+  grid-column: 1/-1;
+  background-image: url("https://s3-us-west-2.amazonaws.com/minisitios/revistaamigapl/wp-content/uploads/2021/09/pexels-cats-coming-674574-scaled.jpg");
+  height: 350px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+} */
+
+.heading > h1 {
+  font-weight: 400;
+  font-size: 60px;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+.menu-text {
+  font-size: 100px;
+  text-align: center;
+  padding-top: 15px;
+  letter-spacing: 5px;
 }
 
 .quantity {
@@ -54,8 +106,14 @@ body {
   flex-wrap: wrap;
 }
 
+.menu-btn {
+  background-color: #fff2ccff;
+  border: solid;
+  width: 100px;
+}
+
 .card {
-  background-color: #9aba8cff;
+  background-color: #e4b78f;
 }
 
 .menu-container {
@@ -70,8 +128,8 @@ body {
 
 .menu-group-heading {
   margin: 0;
-  padding-bottom: 1px;
-  border: 2x solid green;
+  padding: 15px;
+  border-bottom: 2x solid green;
 }
 
 .menu-group {
@@ -84,10 +142,21 @@ body {
 .menu-item-image {
   width: 300px;
   height: 300px;
+  padding: 10px;
+  /* border: tomato; */
   flex-shrink: 0;
   object-fit: cover;
   margin-right: 1.5px;
 }
+
+/* @media screen and (min-width: 500px) {
+  .menu {
+    font-size: 16px;
+  }
+  .menu-group {
+    grid-template-columns: repeat(2, 1fr);
+  }
+} */
 
 .menu-item-text {
   flex-grow: 1;
@@ -103,6 +172,16 @@ body {
   display: flex;
 }
 
+.menu-item-name {
+  margin-right: 1.5px;
+}
+
+.meun-item-description {
+  line-height: 1.6px;
+}
+/* end of menu code */
+
+/* forbidden catering code */
 .hero {
   background-image: url("https://s3-us-west-2.amazonaws.com/minisitios/revistaamigapl/wp-content/uploads/2021/09/pexels-cats-coming-674574-scaled.jpg");
   height: 350px;
@@ -165,43 +244,73 @@ body {
   justify-content: space-evenly;
   gap: 30px;
 }
+/* end of forbiddean catering code */
 
+/*  contact us  */
+.contact-header {
+  text-align: center;
+  font-size: 50px;
+  margin: 20px;
+}
 .contact-info-and-hours {
-  background-color: #9aba8cff;
+  background-color: #ca8459;
   border: 3px solid #fff2ccff;
   border-radius: 5px;
   padding: 30px;
-  width: 550px;
-  margin-left: 40px;
+  width: 100%;
+  margin: 20px;
 }
 
 .feedback-container {
-  background-color: #9aba8cff;
+  background-color: #ca8459;
   border: 3px solid #fff2ccff;
   border-radius: 5px;
   padding: 30px;
-  width: 550px;
-  margin-left: 40px;
+  width: 100%;
+  margin: 20px;
+}
+/* end of contact us */
+
+/* about us */
+.Michou-cafe-header {
+  font-size: 50px;
+  text-align: center;
+  margin: 30px;
 }
 
-.owner-picture {
+.about-image {
+  width: 100%;
+  height: auto;
+  margin: 20px;
+
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.menu- .example-plate {
   width: 30px;
   height: auto;
+  position: relative;
+  top: 6px;
 }
 
-.family-picture {
-  width: 30px;
-  height: auto;
+.michou-description {
+  margin: 25px;
+  position: relative;
+  top: 6px;
 }
 
-.example-plate {
-  width: 30px;
-  height: auto;
+.about-pate {
+  margin: 25px;
 }
+/* end of about us */
 
+/* footer */
 footer {
+  /* border-top: 1px solid goldenrod; */
   padding: 2% 0;
   text-align: center;
+  background-color: #e4b78f;
 }
 
 footer a {
@@ -212,6 +321,7 @@ footer a {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  border: 5px solid goldenrod;
+  border: 2px solid goldenrod;
   padding: 2px;
 }
+/*  end of footer */

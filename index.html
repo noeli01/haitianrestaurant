@@ -20,6 +20,7 @@
 
     <link rel="stylesheet" href="index.css" />
   </head>
+
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
@@ -55,19 +56,26 @@
             <li class="nav-item">
               <a class="nav-link" href="contact-us.html">Contact us</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link" href="catering.html">Catering</a>
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>
     </nav>
-    <div
+
+    <div class="heroimage">
+      <img src="./media/example-plate3.jpg" class="main-dish" />
+      <h1 class="cafe-name">Michou Cafe</h1>
+    </div>
+
+    <!-- bootstrap slideshow -->
+    <!-- <div
       id="carouselExampleCaptions"
       class="carousel slide"
-      data-bs-ride="carousel"
-    >
-      <div class="carousel-indicators">
+      data-bs-ride="carousel"> -->
+
+    <!-- <div class="carousel-indicators">
         <button
           type="button"
           data-bs-target="#carouselExampleCaptions"
@@ -88,10 +96,11 @@
           data-bs-slide-to="2"
           aria-label="Slide 3"
         ></button>
-      </div>
-      <div class="carousel-inner">
+      </div> -->
+
+    <!-- <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="./media/placeholder.jpg" class="d-block w-100" alt="..." />
+          <img src="./media/heroimage2.jpg" class="d-block w-100" alt="..." />
           <div class="carousel-caption d-none d-md-block">
             <h5>Michou Cafe</h5>
             <p>Some representative placeholder content for the first slide.</p>
@@ -111,8 +120,9 @@
             <p>Some representative placeholder content for the third slide.</p>
           </div>
         </div>
-      </div>
-      <button
+      </div> -->
+
+    <!-- <button
         class="carousel-control-prev"
         type="button"
         data-bs-target="#carouselExampleCaptions"
@@ -130,10 +140,13 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
-    </div>
+    </div> -->
+    <!-- end bootstrap slideshow -->
 
+    <!-- bootstrap cards -->
     <section class="about-us">
       <div class="container">
+        <h1 class="cards-headline">Stay up to date</h1>
         <div class="row">
           <div class="col-md-4">
             <div class="card">
@@ -141,52 +154,52 @@
               <div class="card-body">
                 <h5 class="card-title">Popular Dishes</h5>
                 <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  New to Michou Cafe? Don't worry, we've got you covered. From
+                  our soft, meaty, flavorful pate, to our creamy mac n cheese.
+                  Learn more about our popular dishes here.
                 </p>
-                <button class="btn btn-warning btn-block">
-                  Popular dishes
-                </button>
+                <button class="btn btn-warning btn-block">Read more</button>
               </div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="card">
               <img
-                src="./media/index-akra.jpeg"
+                src="./media/index-history.jpg"
                 class="card-img-top"
                 alt="Akra"
               />
               <div class="card-body">
-                <h5 class="card-title">History</h5>
+                <h5 class="card-title">History of our Haitian Dishes</h5>
                 <p class="card-text">
-                  This card has supporting text below as a natural lead-in to
-                  additional content.
+                  Haitian pate's have been a wildy popular dish for centuries...
                 </p>
-                <button class="btn btn-warning btn-block">History</button>
+                <button class="btn btn-warning btn-block">Read more</button>
               </div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="card">
-              <img src="./media/pate.jpg" class="card-img-top" alt="Cremas" />
+              <img
+                src="./media/haitian-mac-n-cheese.jpg"
+                class="card-img-top"
+                alt="Cremas"
+              />
               <div class="card-body">
-                <h5 class="card-title">Seasonal Dishes</h5>
+                <h5 class="card-title">Winter Specials</h5>
                 <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  Happy Holliday's! This season we are selling our most
+                  in-demand drink, Haitian Eggnog. Click below to find out more
+                  about our new specials.
                 </p>
-                <button class="btn btn-warning btn-block">
-                  Seasonal dishes
-                </button>
+                <button class="btn btn-warning btn-block">Read more</button>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <!-- bootstrap cards -->
 
     <footer>
       <a target="blank" href="twitter.com">
@@ -204,6 +217,7 @@
         <img class="s-icon" alt="Facebook" src="./media/facebook.png" />
       </a>
     </footer>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
